@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+:root {
+  --primary-color: #6366f1;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  margin: 1em;
+}
+
+label {
+  margin: 0.5em;
+}
+
+input {
+  border-radius: 5px;
+  border-style: solid;
+  margin: 1em;
+  padding: 0.5em;
+  font-size: 1em;
+  width: 200px;
+}
+
+#profit-or-loss-btn {
+  padding: 0.8em;
+  margin: 1em;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+}
+
+#profit-or-loss-btn:hover {
+  background-color: #4338ca;
+  cursor: pointer;
+}
+
+#profit-or-loss {
+  margin: 1em;
+  font-size: larger;
+}
