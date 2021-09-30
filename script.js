@@ -49,7 +49,7 @@ function errorHandler() {
   if (finalValue === "") {
     showMessage(msg);
   }
-  if (initialValue < 0 || quantityValue < 0 || finalValue < 0) {
+  if (initialValue < 0 || quantityValue < 1 || finalValue < 0) {
     showMessage("Please enter a valid number!!");
   }
 }
