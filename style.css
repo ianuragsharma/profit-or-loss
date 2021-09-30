@@ -53,3 +53,37 @@ input {
   margin: 1em;
   font-size: larger;
 }
+
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+.list-item-inline {
+  display: inline;
+}
+.list-item-inline a {
+  padding: 1rem;
+  display: inline;
+}
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  height: 15vh;
+  background-color: var(--primary-color);
+  padding: 1rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .footer-header {
+  margin: 1.5rem;
+  font-weight: bold;
+  font-size: large;
+}
